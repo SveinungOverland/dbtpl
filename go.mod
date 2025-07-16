@@ -1,4 +1,4 @@
-module github.com/xo/dbtpl
+module github.com/SveinungOverland/dbtpl
 
 go 1.24.3
 

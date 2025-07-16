@@ -3,7 +3,7 @@ package loader
 import (
 	"testing"
 
-	xo "github.com/xo/dbtpl/types"
+	xo "github.com/SveinungOverland/dbtpl/types"
 )
 
 func TestMysqlGoType(t *testing.T) {

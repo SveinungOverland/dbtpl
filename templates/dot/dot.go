@@ -11,7 +11,7 @@ import (
 	"text/template"
 
 	"github.com/kenshaw/snaker"
-	xo "github.com/xo/dbtpl/types"
+	xo "github.com/SveinungOverland/dbtpl/types"
 )
 
 // Init registers the template.

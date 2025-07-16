@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/kenshaw/inflector"
-	"github.com/xo/dbtpl/loader"
-	"github.com/xo/dbtpl/models"
-	xo "github.com/xo/dbtpl/types"
+	"github.com/SveinungOverland/dbtpl/loader"
+	"github.com/SveinungOverland/dbtpl/models"
+	xo "github.com/SveinungOverland/dbtpl/types"
 )
 
 // loadSchema loads a schema from a database.

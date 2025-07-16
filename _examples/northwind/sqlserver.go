@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	models "github.com/xo/dbtpl/_examples/northwind/sqlserver"
+	models "github.com/SveinungOverland/dbtpl/_examples/northwind/sqlserver"
 )
 
 func runSqlserver(ctx context.Context, db *sql.DB) error {
