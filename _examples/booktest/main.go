@@ -20,11 +20,11 @@ import (
 	_ "github.com/sijms/go-ora/v2"
 
 	// models
-	"github.com/xo/dbtpl/_examples/booktest/mysql"
-	"github.com/xo/dbtpl/_examples/booktest/oracle"
-	"github.com/xo/dbtpl/_examples/booktest/postgres"
-	"github.com/xo/dbtpl/_examples/booktest/sqlite3"
-	"github.com/xo/dbtpl/_examples/booktest/sqlserver"
+	"github.com/SveinungOverland/dbtpl/_examples/booktest/mysql"
+	"github.com/SveinungOverland/dbtpl/_examples/booktest/oracle"
+	"github.com/SveinungOverland/dbtpl/_examples/booktest/postgres"
+	"github.com/SveinungOverland/dbtpl/_examples/booktest/sqlite3"
+	"github.com/SveinungOverland/dbtpl/_examples/booktest/sqlserver"
 
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"

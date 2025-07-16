@@ -16,7 +16,7 @@ import (
 	"text/template"
 	"unicode"
 
-	xo "github.com/xo/dbtpl/types"
+	xo "github.com/SveinungOverland/dbtpl/types"
 )
 
 // Init registers the template.

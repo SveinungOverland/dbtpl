@@ -15,10 +15,10 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/SveinungOverland/dbtpl/internal"
+	xo "github.com/SveinungOverland/dbtpl/types"
 	"github.com/traefik/yaegi/interp"
 	"github.com/traefik/yaegi/stdlib"
-	"github.com/xo/dbtpl/internal"
-	xo "github.com/xo/dbtpl/types"
 )
 
 // Templates holds a set of templates and handles generating files for a target
@@ -397,7 +397,7 @@ func (ts *Templates) NewTemplate(ctx context.Context, target string, src fs.FS, 
 	// convert init
 	tplInit, ok := v.Interface().(func(context.Context, func(xo.TemplateType)) error)
 	if !ok {
-		return nil, fmt.Errorf("%s: %s has signature `%T` (must be `func(context.Context, func(github.com/xo/dbtpl/types.TemplateType)) error`)", target, ts.initfunc, v.Interface())
+		return nil, fmt.Errorf("%s: %s has signature `%T` (must be `func(context.Context, func(github.com/SveinungOverland/dbtpl/types.TemplateType)) error`)", target, ts.initfunc, v.Interface())
 	}
 	// init
 	var typ xo.TemplateType

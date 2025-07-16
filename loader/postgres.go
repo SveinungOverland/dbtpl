@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xo/dbtpl/models"
-	xo "github.com/xo/dbtpl/types"
+	"github.com/SveinungOverland/dbtpl/models"
+	xo "github.com/SveinungOverland/dbtpl/types"
 )
 
 func init() {

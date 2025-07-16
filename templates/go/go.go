@@ -19,8 +19,8 @@ import (
 
 	"github.com/kenshaw/inflector"
 	"github.com/kenshaw/snaker"
-	"github.com/xo/dbtpl/loader"
-	xo "github.com/xo/dbtpl/types"
+	"github.com/SveinungOverland/dbtpl/loader"
+	xo "github.com/SveinungOverland/dbtpl/types"
 	"golang.org/x/tools/imports"
 	"mvdan.cc/gofumpt/format"
 )

@@ -23,11 +23,11 @@ import (
 	_ "github.com/sijms/go-ora/v2"
 
 	// models
-	"github.com/xo/dbtpl/_examples/northwind/mysql"
-	"github.com/xo/dbtpl/_examples/northwind/oracle"
-	"github.com/xo/dbtpl/_examples/northwind/postgres"
-	"github.com/xo/dbtpl/_examples/northwind/sqlite3"
-	"github.com/xo/dbtpl/_examples/northwind/sqlserver"
+	"github.com/SveinungOverland/dbtpl/_examples/northwind/mysql"
+	"github.com/SveinungOverland/dbtpl/_examples/northwind/oracle"
+	"github.com/SveinungOverland/dbtpl/_examples/northwind/postgres"
+	"github.com/SveinungOverland/dbtpl/_examples/northwind/sqlite3"
+	"github.com/SveinungOverland/dbtpl/_examples/northwind/sqlserver"
 
 	"github.com/xo/dburl"
 	"github.com/xo/dburl/passfile"
