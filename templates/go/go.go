@@ -1808,6 +1808,9 @@ func (f *Funcs) convertTypes(fkey ForeignKey) string {
 		if strings.HasPrefix(typ, "sql.Null") {
 			expr = expr + "." + typ[8:]
 			typ = strings.ToLower(typ[8:])
+		} else if typ == "uuid.NullUUID" {
+			expr = expr + ".UUID"
+			typ = "uuid"
 		}
 		if strings.ToLower(refType) != typ {
 			expr = refType + "(" + expr + ")"

@@ -99,6 +99,14 @@ func (err ErrInvalid{{ $e.GoName }}) Error() string {
 //
 // Generated from foreign key '{{ $k.SQLName }}'.
 {{ recv_context $k.Table $k }} {
+  {{- range $field := $k.Fields }}
+  {{- $fieldType := $field.Type }}
+  {{- if or (eq $fieldType "uuid.NullUUID") }}
+  if !{{ short $k.Table }}.{{ $field.GoName }}.Valid {
+    return nil, nil
+  }
+  {{- end }}
+  {{- end }}
 	return {{ foreign_key_context $k }}
 }
 {{- if context_both }}
